@@ -1,10 +1,20 @@
-/* Generated using lvgl_img_converter.py (bundle_images_to_c - Default BlackBG/WhiteFG) */
-/* Contains 8 image(s). */
 #include <lvgl.h>
 
 #ifndef LV_ATTRIBUTE_MEM_ALIGN
 #define LV_ATTRIBUTE_MEM_ALIGN
 #endif
+
+
+
+/* Notes
+
+- Used https://ezgif.com/ to rotate, resize, remove frames, and split gif into individual images
+- Used https://www.pixilart.com/ to add 1px white outline around images
+- Used https://app.dithermark.com/ to convert to b/w only (Alg: Threshold, Thresh: 100, Hue Rotation: 48 (to prevent lit studs from showing up as white))
+- Used https://javl.github.io/image2cpp/ to convert images to arrays of bits (BG Color: Black)
+
+*/
+
 
 
 #ifndef LV_ATTRIBUTE_IMG_MINIKIT_00
