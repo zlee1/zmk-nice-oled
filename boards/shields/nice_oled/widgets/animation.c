@@ -32,7 +32,7 @@ const lv_img_dsc_t *crystal_imgs[] = {
 LV_IMG_DECLARE(minikit_00);
 LV_IMG_DECLARE(minikit_01);
 const lv_img_dsc_t *minikit_imgs[] = {
-    &minikit_00
+    &minikit_00,
     &minikit_01
 };
 
