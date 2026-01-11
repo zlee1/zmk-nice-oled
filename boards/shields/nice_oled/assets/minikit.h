@@ -6,7 +6,7 @@ extern "C" {
 #include "lvgl.h"
 // -------- Image Descriptors Declarations --------
 LV_IMG_DECLARE(minikit_00);
-// LV_IMG_DECLARE(cat_1);
+LV_IMG_DECLARE(minikit_01);
 // LV_IMG_DECLARE(cat_2);
 // LV_IMG_DECLARE(cat_3);
 // LV_IMG_DECLARE(cat_4);
@@ -17,9 +17,9 @@ LV_IMG_DECLARE(minikit_00);
 
 // -------- Array of Pointers to Image Descriptors --------
 // Provides easy access to all images defined in the corresponding .c file
-const lv_img_dsc_t *5_output_images_rotate_flip_images[8] = {
-    &minikit_00
-    // &cat_1,
+const lv_img_dsc_t *5_output_images_rotate_flip_images[2] = {
+    &minikit_00,
+    &minikit_01
     // &cat_2,
     // &cat_3,
     // &cat_4,
