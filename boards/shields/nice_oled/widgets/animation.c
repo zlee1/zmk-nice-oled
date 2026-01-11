@@ -30,8 +30,10 @@ const lv_img_dsc_t *crystal_imgs[] = {
 #if IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_MINIKIT)
 
 LV_IMG_DECLARE(minikit_00);
+LV_IMG_DECLARE(minikit_01);
 const lv_img_dsc_t *minikit_imgs[] = {
     &minikit_00
+    &minikit_01
 };
 
 #elif IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_HEAD)
