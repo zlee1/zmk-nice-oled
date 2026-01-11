@@ -28,7 +28,7 @@ const lv_img_dsc_t *5_output_images_rotate_flip_images[2] = {
     // &cat_7
 };
 
-#define 5_OUTPUT_IMAGES_ROTATE_FLIP_IMAGES_NUM_IMAGES 8
+#define 5_OUTPUT_IMAGES_ROTATE_FLIP_IMAGES_NUM_IMAGES 2
 
 #ifdef __cplusplus
 } /* extern "C" */
