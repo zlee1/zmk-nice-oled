@@ -31,9 +31,37 @@ const lv_img_dsc_t *crystal_imgs[] = {
 
 LV_IMG_DECLARE(minikit_00);
 LV_IMG_DECLARE(minikit_01);
+LV_IMG_DECLARE(minikit_02);
+LV_IMG_DECLARE(minikit_03);
+LV_IMG_DECLARE(minikit_04);
+LV_IMG_DECLARE(minikit_05);
+LV_IMG_DECLARE(minikit_06);
+LV_IMG_DECLARE(minikit_07);
+LV_IMG_DECLARE(minikit_08);
+LV_IMG_DECLARE(minikit_09);
+LV_IMG_DECLARE(minikit_10);
+LV_IMG_DECLARE(minikit_11);
+LV_IMG_DECLARE(minikit_12);
+LV_IMG_DECLARE(minikit_13);
+LV_IMG_DECLARE(minikit_14);
+LV_IMG_DECLARE(minikit_15);
 const lv_img_dsc_t *minikit_imgs[] = {
     &minikit_00,
-    &minikit_01
+    &minikit_01,
+    &minikit_02,
+    &minikit_03,
+    &minikit_04,
+    &minikit_05,
+    &minikit_06,
+    &minikit_07,
+    &minikit_08,
+    &minikit_09,
+    &minikit_10,
+    &minikit_11,
+    &minikit_12,
+    &minikit_13,
+    &minikit_14,
+    &minikit_15
 };
 
 #elif IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_HEAD)
@@ -187,7 +215,7 @@ void draw_animation(lv_obj_t *canvas, struct zmk_widget_screen *widget) {
 #if IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL) 
     lv_obj_center(art);
 #if IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_MINIKIT)
-    lv_animimg_set_src(art, (const void **)minikit_imgs, 2);
+    lv_animimg_set_src(art, (const void **)minikit_imgs, 16);
 #elif IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_HEAD)
     lv_animimg_set_src(art, (const void **)head_imgs, 16);
 #elif IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_CAT)
