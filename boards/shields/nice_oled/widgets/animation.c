@@ -46,6 +46,9 @@ LV_IMG_DECLARE(minikit_13);
 LV_IMG_DECLARE(minikit_14);
 LV_IMG_DECLARE(minikit_15);
 const lv_img_dsc_t *minikit_imgs[] = {
+    &minikit_13,
+    &minikit_14,
+    &minikit_15,
     &minikit_00,
     &minikit_01,
     &minikit_02,
@@ -58,10 +61,7 @@ const lv_img_dsc_t *minikit_imgs[] = {
     &minikit_09,
     &minikit_10,
     &minikit_11,
-    &minikit_12,
-    &minikit_13,
-    &minikit_14,
-    &minikit_15
+    &minikit_12
 };
 
 #elif IS_ENABLED(CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_HEAD)

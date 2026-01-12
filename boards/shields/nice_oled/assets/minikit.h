@@ -26,6 +26,9 @@ LV_IMG_DECLARE(minikit_15);
 // -------- Array of Pointers to Image Descriptors --------
 // Provides easy access to all images defined in the corresponding .c file
 const lv_img_dsc_t *5_output_images_rotate_flip_images[16] = {
+    &minikit_13,
+    &minikit_14,
+    &minikit_15,
     &minikit_00,
     &minikit_01,
     &minikit_02,
@@ -38,10 +41,7 @@ const lv_img_dsc_t *5_output_images_rotate_flip_images[16] = {
     &minikit_09,
     &minikit_10,
     &minikit_11,
-    &minikit_12,
-    &minikit_13,
-    &minikit_14,
-    &minikit_15
+    &minikit_12
 };
 
 #define 5_OUTPUT_IMAGES_ROTATE_FLIP_IMAGES_NUM_IMAGES 16
